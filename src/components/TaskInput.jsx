@@ -10,6 +10,7 @@ import { fetchWeatherForLocation } from "@/lib/store/weatherSlice";
 import { PlusCircle } from "lucide-react";
 
 export default function TaskInput() {
+  
   const dispatch = useDispatch();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
