@@ -14,6 +14,7 @@ export default function TaskInput() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
+  
   const [priority, setPriority] = useState("medium");
   const [location, setLocation] = useState("");
 
