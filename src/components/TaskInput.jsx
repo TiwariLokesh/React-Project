@@ -16,6 +16,7 @@ export default function TaskInput() {
   const [description, setDescription] = useState("");
   
   const [priority, setPriority] = useState("medium");
+  
   const [location, setLocation] = useState("");
 
   const handleSubmit = (e) => {
