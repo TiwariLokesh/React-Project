@@ -20,6 +20,7 @@ export default function TaskInput() {
   const [location, setLocation] = useState("");
 
   const handleSubmit = (e) => {
+    
     e.preventDefault();
 
     if (!title.trim()) return;
