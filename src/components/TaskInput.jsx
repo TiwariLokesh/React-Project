@@ -40,6 +40,7 @@ export default function TaskInput() {
     // dispatch(addTask(newTask));
 
     // If location is provided, fetch weather data
+    
     if (location.trim()) {
       dispatch(fetchWeatherForLocation(location));
     }
