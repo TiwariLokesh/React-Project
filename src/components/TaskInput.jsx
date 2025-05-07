@@ -48,6 +48,7 @@ export default function TaskInput() {
     // Reset form
     setTitle("");
     setDescription("");
+    
     setPriority("medium");
     
     setLocation("");
