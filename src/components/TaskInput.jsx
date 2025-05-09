@@ -49,6 +49,7 @@ export default function TaskInput() {
     setTitle("");
     setDescription("");
     
+    
     setPriority("medium");
     
     setLocation("");
