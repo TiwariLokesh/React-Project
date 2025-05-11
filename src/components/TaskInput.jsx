@@ -62,6 +62,7 @@ export default function TaskInput() {
         <Label htmlFor="title">Task Title</Label>
         <Input
           id="title"
+          
           placeholder="Enter task title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
