@@ -72,6 +72,7 @@ export default function TaskInput() {
 
       <div className="space-y-2">
         <Label htmlFor="description">Description (Optional)</Label>
+        
         <Textarea
           id="description"
           placeholder="Add details about your task"
