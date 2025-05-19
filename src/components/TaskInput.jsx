@@ -88,6 +88,7 @@ export default function TaskInput() {
         
         
         <div className="space-y-2">
+          
           <Label htmlFor="priority">Priority</Label>
           <Select value={priority} onValueChange={setPriority}>
             <SelectTrigger id="priority">
