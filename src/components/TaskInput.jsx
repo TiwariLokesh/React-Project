@@ -92,9 +92,10 @@ export default function TaskInput() {
           <Label htmlFor="priority">Priority</Label>
           
           <Select value={priority} onValueChange={setPriority}>
-          
+
             <SelectTrigger id="priority">
               <SelectValue placeholder="Select priority" />
+              
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="high">High</SelectItem>
