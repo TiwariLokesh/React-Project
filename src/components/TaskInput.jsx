@@ -98,6 +98,7 @@ export default function TaskInput() {
               
             </SelectTrigger>
             <SelectContent>
+              
               <SelectItem value="high">High</SelectItem>
               <SelectItem value="medium">Medium</SelectItem>
               <SelectItem value="low">Low</SelectItem>
