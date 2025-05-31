@@ -104,6 +104,7 @@ export default function TaskInput() {
               <SelectItem value="medium">Medium</SelectItem>
               
               <SelectItem value="low">Low</SelectItem>
+              
             </SelectContent>
           </Select>
         </div>
