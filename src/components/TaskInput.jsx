@@ -118,6 +118,7 @@ export default function TaskInput() {
           <Input
             id="location"
             placeholder="e.g., New York"
+            
             value={location}
             onChange={(e) => setLocation(e.target.value)}
           />
