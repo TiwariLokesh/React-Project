@@ -121,6 +121,7 @@ export default function TaskInput() {
             
             
             value={location}
+            
             onChange={(e) => setLocation(e.target.value)}
           />
         </div>
